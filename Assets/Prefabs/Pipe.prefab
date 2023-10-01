@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 853818998335186510}
   - component: {fileID: 3035036679604150644}
   - component: {fileID: 7057313391600355973}
+  - component: {fileID: 365239924404174686}
   m_Layer: 13
   m_Name: ParticleDown
   m_TagString: Untagged
@@ -670,9 +671,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0.3}
+    m_Position: {x: 0, y: 0, z: 0.48}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.3, y: 1, z: 0.25}
+    m_Scale: {x: 0.48, y: 1, z: 0.32}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -995,8 +996,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.49310473
-          value: 0.5055325
+          time: 0.5012344
+          value: 0.72364014
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -4828,6 +4829,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &365239924404174686
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340186006084412363}
+  m_Enabled: 1
+  m_SortingLayerID: 1553718601
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &2643976163527071894
 GameObject:
   m_ObjectHideFlags: 0
@@ -4839,6 +4852,7 @@ GameObject:
   - component: {fileID: 6813404564620310460}
   - component: {fileID: 8068813254583283366}
   - component: {fileID: 4097338824498622787}
+  - component: {fileID: 4295404381293085146}
   m_Layer: 13
   m_Name: ParticleCenter
   m_TagString: Untagged
@@ -5500,7 +5514,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.3, y: 1, z: 0.3}
+    m_Scale: {x: 0.48, y: 1, z: 0.48}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -5823,8 +5837,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.49310473
-          value: 0.5055325
+          time: 0.5012344
+          value: 0.72364014
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -9656,6 +9670,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &4295404381293085146
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643976163527071894}
+  m_Enabled: 1
+  m_SortingLayerID: 1553718601
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &3624818087962303707
 GameObject:
   m_ObjectHideFlags: 0
@@ -9667,6 +9693,7 @@ GameObject:
   - component: {fileID: 2798606476186284304}
   - component: {fileID: 8225278392104195077}
   - component: {fileID: 6303449556577847927}
+  - component: {fileID: 4908348372892547135}
   m_Layer: 13
   m_Name: ParticleLeft
   m_TagString: Untagged
@@ -10326,9 +10353,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0.3}
+    m_Position: {x: 0, y: 0, z: 0.48}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.3, y: 1, z: 0.25}
+    m_Scale: {x: 0.48, y: 1, z: 0.32}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -10651,8 +10678,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.49310473
-          value: 0.5055325
+          time: 0.5012344
+          value: 0.72364014
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -14484,6 +14511,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &4908348372892547135
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624818087962303707}
+  m_Enabled: 1
+  m_SortingLayerID: 1553718601
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &3996763331362306222
 GameObject:
   m_ObjectHideFlags: 0
@@ -14495,6 +14534,7 @@ GameObject:
   - component: {fileID: 7569693507407072879}
   - component: {fileID: 1888758959014383332}
   - component: {fileID: 3188772181996867510}
+  - component: {fileID: 8041273594259502782}
   m_Layer: 13
   m_Name: ParticleUp
   m_TagString: Untagged
@@ -15154,9 +15194,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0.3}
+    m_Position: {x: 0, y: 0, z: 0.48}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.3, y: 1, z: 0.25}
+    m_Scale: {x: 0.48, y: 1, z: 0.32}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -15479,8 +15519,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.49310473
-          value: 0.5055325
+          time: 0.5012344
+          value: 0.72364014
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -19312,6 +19352,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &8041273594259502782
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3996763331362306222}
+  m_Enabled: 1
+  m_SortingLayerID: 1553718601
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &4464796193188986620
 GameObject:
   m_ObjectHideFlags: 0
@@ -19323,6 +19375,7 @@ GameObject:
   - component: {fileID: 8375451370012643687}
   - component: {fileID: 6048531135756016601}
   - component: {fileID: 6311432265551816456}
+  - component: {fileID: 6912354687105795348}
   m_Layer: 13
   m_Name: ParticleRight
   m_TagString: Untagged
@@ -19982,9 +20035,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0.3}
+    m_Position: {x: 0, y: 0, z: 0.48}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.3, y: 1, z: 0.25}
+    m_Scale: {x: 0.48, y: 1, z: 0.32}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -20307,8 +20360,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.49310473
-          value: 0.5055325
+          time: 0.5012344
+          value: 0.72364014
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -24140,6 +24193,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &6912354687105795348
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4464796193188986620}
+  m_Enabled: 1
+  m_SortingLayerID: 1553718601
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &4655559032906306320
 GameObject:
   m_ObjectHideFlags: 0
@@ -24218,7 +24283,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 368719887
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24274,7 +24339,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6, y: 1.6}
   m_EdgeRadius: 0
 --- !u!114 &3824921895226710498
 MonoBehaviour:
@@ -24306,7 +24371,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b81a6d164db61aea28a7f27fd171db4d, type: 3}
   - {fileID: 21300000, guid: 8fe23b001fa19e5a4ad9c99253265a51, type: 3}
   colors:
-  - {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.78431374}
+  - {r: 0.8627451, g: 0.8627451, b: 0.27450982, a: 0.78431374}
   - {r: 0.6666667, g: 1, b: 0.6666667, a: 0.78431374}
   - {r: 1, g: 0.6666667, b: 0.6666667, a: 0.78431374}
   - {r: 0.6666667, g: 0.6666667, b: 1, a: 0.78431374}
@@ -24316,9 +24381,5 @@ MonoBehaviour:
   particlesLeft: {fileID: 3624818087962303707}
   particlesCenter: {fileID: 2643976163527071894}
   visualize: 1
-  up: {fileID: 0}
-  left: {fileID: 0}
-  down: {fileID: 0}
-  right: {fileID: 0}
   distance: 2147483647
   contents: 0

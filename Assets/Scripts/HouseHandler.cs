@@ -23,6 +23,6 @@ public class HouseHandler : MonoBehaviour
             Destroy(pipes[i].transform.gameObject);
         }
 
-        Instantiate(house, new Vector3(location.x, location.y, 0), Quaternion.identity, transform);
+        Instantiate(house, new Vector3(location.x, location.y, 0) * 1.6f, Quaternion.identity, transform);
     }
 }

@@ -30,17 +30,11 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        pipeHandler.Expand(1);
-        pipeHandler.Expand(2);
-        pipeHandler.Expand(3);
-        pipeHandler.Expand(4);
-        pipeHandler.Expand(5);
-        pipeHandler.Expand(6);
-        factoryHandler.PlaceFactory(new Vector2(2, 2), 1);
-        factoryHandler.PlaceFactory(new Vector2(-3, 2), 2);
-        factoryHandler.PlaceFactory(new Vector2(-3, -3), 3);
-        factoryHandler.PlaceFactory(new Vector2(2, -3), 4);
-        size = 6;
+        pipeHandler.PlaceTile(new Vector2(0, 0));
+        factoryHandler.PlaceFactory(new Vector2(7, 7), 1);
+        factoryHandler.PlaceFactory(new Vector2(2, 7), 2);
+        factoryHandler.PlaceFactory(new Vector2(2, 2), 3);
+        factoryHandler.PlaceFactory(new Vector2(7, 2), 4);
         running = true;
     }
 

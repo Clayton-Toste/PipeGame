@@ -14,20 +14,17 @@ public class PipeHandler : MonoBehaviour
         }
     }
 
-    public void Expand(int size)
+    public void PlaceTile(Vector2 location)
     {
-        for (int i = -size; i < size; i++)
+        for (int i = 0; i < 10; i++)
         {
-            Instantiate(pipe, new Vector3(i,  size-1, 0), Quaternion.identity, transform);
-            Instantiate(pipe, new Vector3(i, -size, 0), Quaternion.identity, transform);
-        }
-        for (int i = 1-size; i < size-1; i++)
-        {
-            Instantiate(pipe, new Vector3( size-1, i, 0), Quaternion.identity, transform);
-            Instantiate(pipe, new Vector3(-size, i, 0), Quaternion.identity, transform);
+            for (int j = 0; j < 10; j++)
+            {
+                Instantiate(pipe, new Vector3(location.x+i,  location.y+j, 0) * 1.6f, Quaternion.identity, transform);
+            }
         }
     }
-
+    
     public void RefreshAll()
     {
         for (int i = 0; i < transform.childCount; i++)

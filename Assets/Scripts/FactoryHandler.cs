@@ -16,13 +16,13 @@ public class FactoryHandler : MonoBehaviour
 
     public void PlaceFactory(Vector2 location, int contents)
     {
-        RaycastHit2D[] pipes = Physics2D.BoxCastAll(location, new Vector2(1.5f, 1.5f), 0f, Vector2.zero);
+        RaycastHit2D[] pipes = Physics2D.BoxCastAll(location * 1.6f, new Vector2(2.4f, 2.4f), 0f, Vector2.zero);
         
         for (int i = 0; i < pipes.Length; i++)
         {
             Destroy(pipes[i].transform.gameObject);
         }
 
-        Instantiate(factory, new Vector3(location.x, location.y, 0), Quaternion.identity, transform).GetComponent<Factory>().Contents = contents;
+        Instantiate(factory, new Vector3(location.x, location.y, 0) * 1.6f, Quaternion.identity, transform).GetComponent<Factory>().Contents = contents;
     }
 }

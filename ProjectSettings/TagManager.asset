@@ -41,7 +41,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Smoke
+  - name: Background
+    uniqueID: 4094518439
+    locked: 0
+  - name: Steam
     uniqueID: 1553718601
     locked: 0
   - name: Pipe
