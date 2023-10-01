@@ -4837,7 +4837,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340186006084412363}
   m_Enabled: 1
-  m_SortingLayerID: 1553718601
+  m_SortingLayerID: -360029521
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
@@ -9678,7 +9678,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2643976163527071894}
   m_Enabled: 1
-  m_SortingLayerID: 1553718601
+  m_SortingLayerID: -360029521
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
@@ -14519,7 +14519,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3624818087962303707}
   m_Enabled: 1
-  m_SortingLayerID: 1553718601
+  m_SortingLayerID: -360029521
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
@@ -19360,7 +19360,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3996763331362306222}
   m_Enabled: 1
-  m_SortingLayerID: 1553718601
+  m_SortingLayerID: -360029521
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
@@ -24201,7 +24201,7 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4464796193188986620}
   m_Enabled: 1
-  m_SortingLayerID: 1553718601
+  m_SortingLayerID: -360029521
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
@@ -24282,7 +24282,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 368719887
+  m_SortingLayerID: -1949618841
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}

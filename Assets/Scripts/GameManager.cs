@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
     public void Lose()
     {
         ResetGame();
-        //Todo
+        GameOver();
     }
 
     public void Update()

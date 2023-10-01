@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1533772681
+  m_SortingLayerID: 819953251
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 461017227952111412}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8497d9e4df1d2160f8ff0a44ac86014d, type: 2}
+  m_Controller: {fileID: 9100000, guid: abdeedc71f2eb13f098ff7578ce536ce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -177,7 +177,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1533772681
+  m_SortingLayerID: 819953251
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -292,7 +292,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 368719887
+  m_SortingLayerID: -1949618841
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -350,7 +350,7 @@ MonoBehaviour:
   - {fileID: 461017227952111412}
   demands: 00000000
   patience: 60
-  gameManager: {fileID: 0}
+  dead: 0
   animator: {fileID: 5834646246866133867}
 --- !u!1 &4539113192104565660
 GameObject:
@@ -423,7 +423,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1533772681
+  m_SortingLayerID: 819953251
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -447,7 +447,7 @@ Animator:
   m_GameObject: {fileID: 4539113192104565660}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8497d9e4df1d2160f8ff0a44ac86014d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ba7e69a78574bdf5a0eb3624ba46cd3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -529,7 +529,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1533772681
+  m_SortingLayerID: 819953251
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
@@ -553,7 +553,7 @@ Animator:
   m_GameObject: {fileID: 8524445688767223570}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8497d9e4df1d2160f8ff0a44ac86014d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5f10c1b0d40785cd2b876b038b13dc9c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
