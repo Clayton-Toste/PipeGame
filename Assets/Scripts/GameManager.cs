@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
     public PipeHandler pipeHandler;
     public Camera cam;
 
-    private int size = 0;
     private bool running;
+    public int lives = 3;
 
     #region Placing
     private bool force = false;
@@ -30,12 +30,28 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        pipeHandler.PlaceTile(new Vector2(0, 0));
-        factoryHandler.PlaceFactory(new Vector2(7, 7), 1);
-        factoryHandler.PlaceFactory(new Vector2(2, 7), 2);
+        pipeHandler.PlaceTile(new Vector2(0, 0));                      
+        factoryHandler.PlaceFactory(new Vector2(2, 7), 1);
+        factoryHandler.PlaceFactory(new Vector2(7, 7), 2);
         factoryHandler.PlaceFactory(new Vector2(2, 2), 3);
         factoryHandler.PlaceFactory(new Vector2(7, 2), 4);
+
+        PlaceTile(new Vector2(10, 10));
+        PlaceTile(new Vector2(10, 0));
+        PlaceTile(new Vector2(10, -10));
+        PlaceTile(new Vector2(0, 10));
+        PlaceTile(new Vector2(0, -10));
+        PlaceTile(new Vector2(-10, 10));
+        PlaceTile(new Vector2(-10, 0));
+        PlaceTile(new Vector2(-10, -10));
+
         running = true;
+    }
+
+    public void PlaceTile(Vector2 location)
+    {
+        pipeHandler.PlaceTile(location);
+        houseHandler.PlaceTile(location);
     }
 
     public void ResetGame()
@@ -44,7 +60,23 @@ public class GameManager : MonoBehaviour
         factoryHandler.Reset();
         houseHandler.Reset();
         running = false;
-        size = 1;
+        lives = 3;
+    }
+
+    public void Hit()
+    {
+        lives -= 1;
+
+        if (lives <= 0)
+        {
+            Lose();
+        }
+    }
+
+    public void Lose()
+    {
+        ResetGame();
+        //Todo
     }
 
     public void Update()

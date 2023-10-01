@@ -50,9 +50,9 @@ public class CameraController : MonoBehaviour
         else
         {
             if (invertScroll)
-                cam.orthographicSize = Mathf.Clamp(cam.orthographicSize+Input.mouseScrollDelta.y, 4, 7);
+                cam.orthographicSize = Mathf.Clamp(cam.orthographicSize+Input.mouseScrollDelta.y, 5, 10);
             else
-                cam.orthographicSize = Mathf.Clamp(cam.orthographicSize-Input.mouseScrollDelta.y, 4, 7);
+                cam.orthographicSize = Mathf.Clamp(cam.orthographicSize-Input.mouseScrollDelta.y, 5, 10);
         }
     }
 }

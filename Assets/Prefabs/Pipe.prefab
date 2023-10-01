@@ -24219,7 +24219,7 @@ GameObject:
   - component: {fileID: 3824921895226710498}
   m_Layer: 0
   m_Name: Pipe
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24372,8 +24372,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8fe23b001fa19e5a4ad9c99253265a51, type: 3}
   colors:
   - {r: 0.8627451, g: 0.8627451, b: 0.27450982, a: 0.78431374}
-  - {r: 0.6666667, g: 1, b: 0.6666667, a: 0.78431374}
   - {r: 1, g: 0.6666667, b: 0.6666667, a: 0.78431374}
+  - {r: 0.6666667, g: 1, b: 0.6666667, a: 0.78431374}
   - {r: 0.6666667, g: 0.6666667, b: 1, a: 0.78431374}
   particlesUp: {fileID: 3996763331362306222}
   particlesRight: {fileID: 4464796193188986620}

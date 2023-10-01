@@ -10,13 +10,13 @@ public class FactoryHandler : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            Destroy(transform.GetChild(i));
+            Destroy(transform.GetChild(i).gameObject);
         }
     }
 
     public void PlaceFactory(Vector2 location, int contents)
     {
-        RaycastHit2D[] pipes = Physics2D.BoxCastAll(location * 1.6f, new Vector2(2.4f, 2.4f), 0f, Vector2.zero);
+        RaycastHit2D[] pipes = Physics2D.BoxCastAll(location * 1.6f, new Vector2(1.5f, 1.5f) * 1.6f, 0f, Vector2.zero);
         
         for (int i = 0; i < pipes.Length; i++)
         {

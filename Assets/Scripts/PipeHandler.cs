@@ -10,7 +10,7 @@ public class PipeHandler : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            Destroy(transform.GetChild(i));
+            Destroy(transform.GetChild(i).gameObject);
         }
     }
 

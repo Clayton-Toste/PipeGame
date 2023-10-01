@@ -33,4 +33,9 @@ public class SoundManager : MonoBehaviour
         soundVolume = (int)(soundVolumeSlider.value*100);
         PlayerPrefs.SetInt("soundVolume", soundVolume);
     }
+
+    public void PlaySound()
+    {
+
+    }
 }

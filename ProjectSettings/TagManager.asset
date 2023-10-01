@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Factory
+  - House
+  - Pipe
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -49,4 +53,7 @@ TagManager:
     locked: 0
   - name: Pipe
     uniqueID: 368719887
+    locked: 0
+  - name: Alert
+    uniqueID: 2761194615
     locked: 0

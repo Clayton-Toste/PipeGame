@@ -55,7 +55,7 @@ public class Pipe : MonoBehaviour
 
     protected bool UpdateConnection(Pipe other, bool force, bool connect)
     {
-        if (other.transform.position.y > transform.position.y)
+        if (other.transform.position.y > transform.position.y + 0.1f)
         {
             if (!force || connect == (up == null))
             {
@@ -64,7 +64,7 @@ public class Pipe : MonoBehaviour
                 other.down = other.down ? null : this;
             }
         }
-        else if (other.transform.position.x < transform.position.x)
+        else if (other.transform.position.x + 0.1f < transform.position.x)
         {
             if (!force || connect == (left == null))
             {
@@ -73,7 +73,7 @@ public class Pipe : MonoBehaviour
                 other.right = other.right ? null : this;
             }
         }
-        else if (other.transform.position.y < transform.position.y)
+        else if (other.transform.position.y + 0.1f < transform.position.y)
         {
             if (!force || connect == (down == null))
             {
@@ -82,7 +82,7 @@ public class Pipe : MonoBehaviour
                 other.up = other.up ? null : this;
             }
         }
-        else if (other.transform.position.x > transform.position.x)
+        else if (other.transform.position.x > transform.position.x + 0.1f)
         {
             if (!force || connect == (right==null))
             {
