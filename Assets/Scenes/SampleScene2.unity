@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 735292261}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: Untagged
+  m_TagString: AudioManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1016,6 +1016,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicVolumeSlider: {fileID: 1317298336}
   soundVolumeSlider: {fileID: 509780226}
+  sounds:
+  - name: BackgroundMusic
+    group: 
+    clip: {fileID: 8300000, guid: fe41a58ee0a1d472086ea5c347849e60, type: 3}
+    source: {fileID: 0}
+  - name: AddPipe
+    group: 
+    clip: {fileID: 8300000, guid: 9dabb3cb65ab44ecd80c5b56afd8f617, type: 3}
+    source: {fileID: 0}
 --- !u!1 &773852129
 GameObject:
   m_ObjectHideFlags: 0

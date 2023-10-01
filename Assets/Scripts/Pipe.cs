@@ -50,6 +50,8 @@ public class Pipe : MonoBehaviour
         UpdateContents(systemContents, connect);
         other.UpdateContents(systemContents, connect);
 
+        FindObjectOfType<SoundManager>().Play("AddPipe");
+
         return connect;
     }
 

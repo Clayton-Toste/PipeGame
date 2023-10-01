@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,18 +18,12 @@ public class GameManager : MonoBehaviour
     private bool connect;
     #endregion
 
-    public void Start()
-    {
-        // Placeholder
-        StartGame();
-    }
-
     public void CloseGame()
     {
         Application.Quit();
     }
 
-    public void StartGame()
+    public void Start()
     {
         pipeHandler.PlaceTile(new Vector2(0, 0));                      
         factoryHandler.PlaceFactory(new Vector2(2, 7), 1);
@@ -46,6 +41,8 @@ public class GameManager : MonoBehaviour
         PlaceTile(new Vector2(-10, -10));
 
         running = true;
+
+        FindObjectOfType<SoundManager>().Play("BackgroundMusic");
     }
 
     public void PlaceTile(Vector2 location)
@@ -99,4 +96,16 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    #region SceneTransitions
+    public void StartGame()
+    {
+        SceneManager.LoadScene("SampleScene2");
+        // StartProtocol();
+    }
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+    #endregion
 }

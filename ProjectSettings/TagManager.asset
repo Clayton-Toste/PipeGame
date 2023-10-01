@@ -4,10 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Factory
   - House
   - Pipe
   - GameManager
+=======
+  - AudioManager
+>>>>>>> c91159e (sound manager and menu)
   layers:
   - Default
   - TransparentFX
